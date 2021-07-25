@@ -1,0 +1,6 @@
+[submodule "graalvm-demos"]
+	path = graalvm-demos
+	url = https://github.com/graalvm/graalvm-demos.git
+[submodule "battle-of-the-jits"]
+	path = battle-of-the-jits
+	url = https://github.com/martijndwars/battle-of-the-jits.git
