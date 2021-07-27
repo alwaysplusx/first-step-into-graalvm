@@ -2,7 +2,7 @@
 
 &nbsp;
 
-**GraalVM 前世**
+**GraalVM 前世今生**
 
 - 💥 起源于 Sun Micorsystems Maxine Virtual Machine(2005), 目标是用 Java 编写 Java Virtual Machine
 
@@ -11,8 +11,6 @@
 - 🐌 当意识到到目标过于巨大后, 决定尽可能多的重用 Hotspot 运行时, 采用 Hook 的方式嵌入定制编译器
 
 <div v-click="1">
-
-**GraalVM 今生(Project Goals)**
 
 - 💰 Oracle Labs, 第一个生产就绪版本 GraalVM 19.0 已于 2019 年 5 月发布
 
