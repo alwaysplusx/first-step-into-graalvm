@@ -2,7 +2,7 @@
 
 &nbsp;
 
-**GraalVM 前世**
+**GraalVM 前世今生**
 
 - 💥 起源于 Sun Micorsystems Maxine Virtual Machine(2005), 目标是用 Java 编写 Java Virtual Machine
 
@@ -11,8 +11,6 @@
 - 🐌 当意识到到目标过于巨大后, 决定尽可能多的重用 Hotspot 运行时, 采用 Hook 的方式嵌入定制编译器
 
 <div v-click="1">
-
-**GraalVM 今生(Project Goals)**
 
 - 💰 Oracle Labs, 第一个生产就绪版本 GraalVM 19.0 已于 2019 年 5 月发布
 
@@ -31,6 +29,12 @@
 C 开发问题: JNI
 
 元循环: 语言的自举, 嵌套运行时(自己运行自己)
+
+* 以 native-languages 为目标, 提升 JVM 语言的性能
+* 通过aot技术降低启动时间
+* 多种嵌入式环境支持
+* 应用程序不在受到语言的限制, 在一个应用程序中支持多种编程语言
+* 支持通过扩展来实现语言运行
 
 * To improve the performance of Java virtual machine-based languages to match the performance of native languages.
 * To reduce the startup time of JVM-based applications by compiling them ahead-of-time with GraalVM Native Image technology.

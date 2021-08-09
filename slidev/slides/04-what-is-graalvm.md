@@ -5,15 +5,13 @@
 **GraalVM Architecture**
 
 - 🕹️ Java HotSpot VM
-- 🍭 GraalVM compiler (JIT Compiler)
+- 🍭 GraalVM compiler (JIT Compiler)[^1]
 - 🚉 Truffle Language Implemention Framework
 
 <img
   v-click="1" class="example-image" 
   src="https://www.graalvm.org/docs/img/graalvm_architecture_community.png"
 />
-
-<br/>
 
 <div v-click="2">
 
@@ -26,6 +24,8 @@
   - `java -truffle --java.JavaHome=/path/to/java/home -version`
 
 </div>
+
+[^1]: 1.[ Javac Compiler vs JIT Compiler](/images/compiler.jpg)
 
 <style>
 

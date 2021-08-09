@@ -8,7 +8,7 @@
 
 ## 3. 为什么选择 GraalVM
 
-## <span class="emphasize-text">4. Awesome JIT Complier</span>
+## 4. Awesome JIT Complier
 
 ## 5. About Native Image
 
