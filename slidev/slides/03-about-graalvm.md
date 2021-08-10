@@ -36,10 +36,4 @@ C 开发问题: JNI
 * 应用程序不在受到语言的限制, 在一个应用程序中支持多种编程语言
 * 支持通过扩展来实现语言运行
 
-* To improve the performance of Java virtual machine-based languages to match the performance of native languages.
-* To reduce the startup time of JVM-based applications by compiling them ahead-of-time with GraalVM Native Image technology.
-* To enable GraalVM integration into the Oracle Database, OpenJDK, Node.js, Android/iOS, and to support similar custom embeddings.
-* To allow freeform mixing of code from any programming language in a single program, billed as "polyglot applications".
-* To include an easily extended set of "polyglot programming tools".
-
 -->
